@@ -1,0 +1,1661 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-size: 0.938rem;
+    min-height: 100vh;
+    margin: 0 ;
+    padding: 0;
+    font-family: "Alata", serif;
+    font-size: 0.938rem;
+
+  
+}
+img{
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+.header{
+   
+
+    height: 70vh;
+     background: linear-gradient(hsl(0, 0%, 0%, 0.5),hsl(0, 0%, 0%, 0.5)),url(../images/mobile/image-hero.jpg);
+    
+
+     background-repeat: no-repeat ;
+     background-size: cover;
+     background-position: center center;
+     color: hsl(0, 0%, 100%);
+     
+   
+
+}
+
+
+.wrapper_one{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+ 
+  
+}
+
+.logo{
+     background-image: url(../images/logo.svg);
+     padding: 1rem 4rem;
+     background-size: 90%;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-left: 0.7rem;
+     
+ }
+
+ .menu{
+    margin-right: 1.5rem;
+ }
+
+
+
+.x_mark{
+    width: 5rem;
+    height: 2rem;
+    background-image: url(../images/icon-close.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    color: #fff;
+    position: fixed;
+    top:0.8rem;
+    right: 2rem;
+    margin-top: 1rem;
+   
+ 
+}
+
+.nav_ham_logo{
+    width: 8rem;
+    height: 4rem;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    left: 2rem;
+    top: 1.2rem;
+    margin-top: 1rem;
+    
+}
+.not_active{
+
+ display: none;
+}
+
+.active{
+    display: block;
+}
+
+
+
+
+.nav{
+   
+   
+    background-color: rgb(11, 17, 21);
+     
+}
+
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    padding-top: 8rem;
+    padding-bottom: 40%;
+    margin-top: 0rem;
+  
+  
+    
+    background-color: rgb(11, 17, 21);
+    
+
+ 
+}
+
+.nav ul li{
+    list-style: none;
+
+    text-align: left;
+    
+    margin-top: 1rem;
+ 
+ 
+ 
+ 
+    
+}
+
+
+
+.animation_nav ul li a{
+   position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+    
+   
+
+
+
+    
+}
+.animation_nav ul li a:link,
+.animation_nav ul li a:visited{
+    color: hsl(0, 0%, 100%);
+}
+
+.animation_nav ul li a:active{
+    color: hsl(0, 0%, 55%);
+}
+
+.wrapper_two{
+    padding: 1rem 2rem;
+  
+    margin-top: 4rem;
+    border: 0.02rem solid hsl(0, 0%, 100%);
+    width: 60%;
+   margin: 5rem auto;
+
+}
+
+.wrapper_two h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Josefin Sans", serif;
+    
+}
+
+.main{
+    padding: 4rem 2rem;
+  
+}
+.leader{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.leader_text{
+   
+    background-color:  hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+
+
+.leader_text h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.5rem; 
+    font-family: "Josefin Sans", serif;
+    color: hsl(0, 0%, 0%);
+}
+
+.bl{
+    display: block;
+}
+
+.leader_text p{
+    color: hsl(0, 0%, 55%);
+}
+
+
+.con{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr 5%;
+    margin-top: 2rem;
+}
+
+.creation h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem; 
+    font-family: "Josefin Sans", serif;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+.gallery{
+ 
+   display: grid; 
+   grid-template-columns: 1fr
+}
+.gallery_item{
+
+display: grid;
+grid-template-rows: 1fr;
+margin-bottom: 1rem;
+
+
+
+
+
+}
+.deep{
+   
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+ 
+}
+.night{
+  
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/mobile/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+}
+
+    .soccer{
+   
+        background:linear-gradient(
+            hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+          ),url(../images/mobile/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.grid{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.above{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.pocket{
+    
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.curiosity{
+  
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.fisheye{
+ 
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+    
+
+}
+
+
+
+.gall_text{
+   color: hsl(0, 0%, 100%);
+  
+   text-align: start;
+   transform: translate(1rem,1rem);
+   font-weight: 300;
+   text-transform: uppercase;
+   font-size: 1.2rem; 
+   font-family: "Josefin Sans", serif; 
+}
+.see{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#see{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 0%);
+    border: 0.02rem solid hsl(0, 0%, 0%);
+    padding: 0.3rem 2rem;
+    letter-spacing: 0.2rem;
+  
+   
+}
+
+#see:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+
+.footer{
+    
+    background-color: hsl(0, 0%, 0%);
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    padding: 1.5rem 0rem;
+}
+.logo_foo{
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    padding: 2rem 2rem;
+}
+.wrapper_foo .nav_fo ul{
+    padding: 2rem;
+}
+
+.wrapper_foo .nav_fo ul li{ 
+    list-style: none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.wrapper_foo .nav_fo ul li a{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+
+
+
+
+.wrapper_foo_two{
+   
+    display: grid;
+    place-items: center;
+    
+}
+
+
+.wrapper_foo_two .nav_fo ul{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 2rem;
+   
+    
+
+}
+
+.wrapper_foo_two .nav_fo ul li{ 
+    list-style: none;
+}
+
+
+
+.wrapper_foo_two p{
+    text-align: center;
+    color: hsl(0, 0%, 55%);
+    margin: 0rem;
+    padding: 0rem;
+    
+}
+
+
+.nav_fo ul li a::before{
+    content: "";
+    width: 100%;
+    height: 0.125rem;
+
+    position: absolute;
+    left: 0;
+    bottom: -0.6rem;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 50% 50%;
+  }
+ 
+
+.nav_fo  ul li a:link,
+.nav_fo ul li a:visited{
+    color: hsl(0, 0%, 100%);
+}
+
+.nav_fo ul li a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+.nav_fo ul li a:active{
+color: hsl(0, 0%, 55%);
+}
+
+@media screen and (min-width: 48rem) and (max-width:63.938rem){
+
+    .header{
+   
+
+        
+    height: 70vh;
+    background: linear-gradient(hsl(0, 0%, 0%, 0.7),hsl(0, 0%, 0%, 0.7)),url(../images/desktop/image-hero.jpg);
+   
+
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: top center;
+    color: hsl(0, 0%, 100%);
+    
+       
+    
+    }
+    
+    
+   
+  
+    .wrapper_one{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+      
+        padding: 2rem 3rem;
+       
+    }
+    
+
+    .x_mark, .nav_ham_logo, .menu{
+        display: none;
+    }
+    
+   
+    
+   
+    .not_active{
+    
+      display: flex;
+      background-color: transparent;
+      
+     
+    }
+    
+    
+    
+    
+    
+    .nav ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: transparent;
+        position: static;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+     
+        
+        
+    }
+    
+    .nav ul li{
+        list-style: none;
+        margin-left: 1.5rem;
+        padding-bottom: 0rem;
+      
+        margin-top: 1rem;
+     
+     
+        
+    }
+    
+    
+.animation_nav ul li a{
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    
+}
+
+
+.animation_nav ul li a::before{
+    content: "";
+    width: 100%;
+    height: 0.125rem;
+
+    position: absolute;
+    left: 0;
+    bottom: -0.6rem;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 50% 50%;
+  }
+ 
+
+.animation_nav ul li a:link,
+.animation_nav ul li a:visited{
+    color: hsl(0, 0%, 100%);
+}
+
+.animation_nav ul li a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+.animation_nav ul li a:active{
+color: hsl(0, 0%, 55%);
+}
+
+
+
+.wrapper_two{
+    padding: 2rem 2rem;
+  
+    margin-top: 4rem;
+    border: 0.02rem solid hsl(0, 0%, 100%);
+    width: 45%;
+    margin-left: 4.5rem;
+    
+  
+
+}
+
+.wrapper_two h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: "Josefin Sans", serif;
+    
+}
+ 
+
+.main{
+    padding: 4rem 2rem;
+  
+}
+.leader{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.leader_text{
+   
+    background-color:  hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+
+
+.leader_text h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.5rem; 
+    font-family: "Josefin Sans", serif;
+    color: hsl(0, 0%, 0%);
+}
+
+.bl{
+    display: block;
+}
+
+.leader_text p{
+    color: hsl(0, 0%, 55%);
+}
+
+
+
+.con{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr 5%;
+    margin-top: 2rem;
+}
+
+.creation h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem; 
+    font-family: "Josefin Sans", serif;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+.gallery{
+ 
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+
+}
+.gallery_item{
+
+display: grid;
+grid-template-rows: 1fr;
+margin-bottom: 1rem;
+
+
+
+
+
+
+}
+.deep{
+ 
+   
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+ 
+}
+.night{
+ 
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+}
+
+    .soccer{
+        background:linear-gradient(
+            hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+          ),url(../images/mobile/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.grid{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.above{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.pocket{
+   
+
+
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+
+
+}
+.curiosity{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/mobile/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+
+}
+.fisheye{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/mobile/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 3rem 1rem;
+    
+
+}
+
+
+
+.gall_text{
+   color: hsl(0, 0%, 100%);
+  
+   text-align: start;
+   transform: translate(1rem,1rem);
+   font-weight: 400;
+   text-transform: uppercase;
+   font-size: 1.5rem; 
+   font-family: "Josefin Sans", serif; 
+
+
+}
+
+.see{
+    margin-top: 3.5rem;
+}
+.logo_foo{
+    background-size: 45%;
+}
+
+.wrapper_foo .nav_fo ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.wrapper_foo .nav_fo ul li{ margin-left: 1rem; }
+
+
+
+
+}
+
+
+@media screen and (min-width: 64rem) and (max-width:80rem){
+
+    .header{
+   
+
+        
+        height: 70vh;
+        background: linear-gradient(hsl(0, 0%, 0%, 0.7),hsl(0, 0%, 0%, 0.7)),url(../images/desktop/image-hero.jpg);
+       
+    
+        background-repeat: no-repeat ;
+        background-size: cover;
+        background-position: top center;
+        color: hsl(0, 0%, 100%);
+        
+           
+        
+        }
+        
+        
+       
+      
+        .wrapper_one{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+          
+            padding: 2rem 3rem;
+           
+        }
+        
+    
+        .x_mark, .nav_ham_logo, .menu{
+            display: none;
+        }
+        
+       
+        
+       
+        .not_active{
+        
+          display: flex;
+          background-color: transparent;
+          margin-right: 2rem;
+          
+         
+        }
+        
+        
+        
+        
+        
+        .nav ul{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            background-color: transparent;
+            position: static;
+            padding-bottom: 0rem;
+            padding-top: 0rem;
+         
+            
+            
+        }
+        
+        .nav ul li{
+            list-style: none;
+            margin-left: 1.5rem;
+            padding-bottom: 0rem;
+          
+            margin-top: 1rem;
+         
+         
+            
+        }
+        
+        
+    .animation_nav ul li a{
+        position: relative;
+        text-decoration: none;
+        text-transform: capitalize;
+    
+        
+    }
+    
+    
+    .animation_nav ul li a::before{
+        content: "";
+        width: 100%;
+        height: 0.125rem;
+    
+        position: absolute;
+        left: 0;
+        bottom: -0.6rem;
+        background: #fff;
+        transition: 0.5s transform ease;
+        transform: scale3d(0,1,1);
+        transform-origin: 50% 50%;
+      }
+     
+    
+    .animation_nav ul li a:link,
+    .animation_nav ul li a:visited{
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .animation_nav ul li a:hover::before{
+        transform: scale3d(1,1,1);
+      }
+    .animation_nav ul li a:active{
+    color: hsl(0, 0%, 55%);
+    }
+    
+    .wrapper_two{
+        padding: 1rem 2rem;
+      
+        margin-top: 4rem;
+        border: 0.02rem solid hsl(0, 0%, 100%);
+        width: 40%;
+      margin-left: 4rem;
+    
+    }
+    
+    .wrapper_two h1{
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-family: "Josefin Sans", serif;
+        
+    }
+    
+    .main{
+        padding: 4rem 2rem;
+      
+    }
+
+
+    
+.leader{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4,0.5fr);
+    padding: 6rem 4rem ;
+  
+    
+   
+
+    place-items: center;
+    
+   
+}
+.leader_img,.leader_text{
+    grid-row: 1/2;
+}
+.leader_img{
+    grid-column: 1/3;
+}
+
+
+.leader_img img{
+
+ min-width: 100%;
+}
+
+
+.leader_text{
+   
+    background-color:  hsl(0, 0%, 100%);
+    margin-left: 1rem;
+   width: 50%;
+  
+  padding: 1.8rem 2rem 0rem 4rem;
+
+   
+ 
+    
+    grid-column: 2/-1;
+    align-self: self-end;
+ 
+    text-align: start;
+   
+    
+}
+
+
+
+.leader_text h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.7rem; 
+    font-family: "Josefin Sans", serif;
+    color: hsl(0, 0%, 0%);
+
+}
+
+
+
+
+
+.leader_text p{
+    font-size: 0.9rem;
+    margin-bottom: -0.01rem;
+   
+}
+
+.con{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+  
+    margin-top: 2rem;
+   
+   
+    
+}
+
+.creation{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+    padding-left: 4rem;
+    
+  
+}
+
+.creation h2{
+    text-align: start;
+}
+.gallery{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding: 0rem 4rem;
+  
+}
+
+.gallery_item{
+
+ padding: 12rem 1rem;
+}
+
+
+
+
+
+.see{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+   justify-content: end;
+   padding-right: 4rem;
+   
+}
+
+.deep{
+ 
+   
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+   
+     
+
+ 
+}
+.night{
+ 
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+    .soccer{
+        background:linear-gradient(
+            hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+          ),url(../images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.grid{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.above{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.pocket{
+   
+
+
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+
+
+}
+.curiosity{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.fisheye{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.gall_text{
+    color: hsl(0, 0%, 100%);
+    border: 1px solid red;
+    text-align: start;
+    transform: translate(1rem,10rem);
+    font-weight: 300;
+   
+    text-transform: uppercase;
+    font-size: 1.5rem; 
+    font-family: "Josefin Sans", serif; 
+
+ 
+ }
+
+ .footer{
+    
+    background-color: hsl(0, 0%, 0%);
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 1.5rem 4rem;
+}
+.logo_foo{
+    background-size: 40%;
+    background-position: top left;
+
+  margin-left: 2rem;
+  padding: 1rem;
+
+}
+
+.wrapper_foo_two{
+    margin-left: auto;
+    
+
+}
+
+.wrapper_foo .nav_fo ul{
+   display: flex;
+   justify-content: start;
+
+   padding: 0rem 2rem;
+  
+
+
+   
+  
+}
+.wrapper_foo{
+    margin-right: auto;
+    
+}
+
+
+.wrapper_foo .nav_fo ul li{
+    margin-left: 1.5rem;
+  
+}
+.wrapper_foo .nav_fo ul li:first-child{
+    margin-left: 0rem;
+}
+
+
+
+.wrapper_foo_two .nav_fo ul{
+    
+    margin-top: -1.8rem;
+    margin-left: 6.5rem;
+
+}
+
+.wrapper_foo_two p {
+   margin-top: 1rem;
+  
+}
+
+
+}
+
+
+@media screen and (min-width: 80.063rem){
+
+    .header{
+   
+
+        
+        height: 70vh;
+        background: linear-gradient(hsl(0, 0%, 0%, 0.7),hsl(0, 0%, 0%, 0.7)),url(../images/desktop/image-hero.jpg);
+       
+    
+        background-repeat: no-repeat ;
+        background-size: cover;
+        background-position: top center;
+        color: hsl(0, 0%, 100%);
+        
+           
+        
+        }
+        
+        
+       
+      
+        .wrapper_one{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+          
+            padding: 2rem 6rem;
+           
+        }
+        
+    
+        .x_mark, .nav_ham_logo, .menu{
+            display: none;
+        }
+        
+       
+        
+       
+        .not_active{
+        
+          display: flex;
+          background-color: transparent;
+          margin-right: 2rem;
+          
+         
+        }
+        
+        
+        
+        
+        
+        .nav ul{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            background-color: transparent;
+            position: static;
+            padding-bottom: 0rem;
+            padding-top: 0rem;
+         
+            
+            
+        }
+        
+        .nav ul li{
+            list-style: none;
+            margin-left: 1.5rem;
+            padding-bottom: 0rem;
+          
+            margin-top: 1rem;
+         
+         
+            
+        }
+        
+        
+    .animation_nav ul li a{
+        position: relative;
+        text-decoration: none;
+        text-transform: capitalize;
+    
+        
+    }
+    
+    
+    .animation_nav ul li a::before{
+        content: "";
+        width: 100%;
+        height: 0.125rem;
+    
+        position: absolute;
+        left: 0;
+        bottom: -0.6rem;
+        background: #fff;
+        transition: 0.5s transform ease;
+        transform: scale3d(0,1,1);
+        transform-origin: 50% 50%;
+      }
+     
+    
+    .animation_nav ul li a:link,
+    .animation_nav ul li a:visited{
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .animation_nav ul li a:hover::before{
+        transform: scale3d(1,1,1);
+      }
+    .animation_nav ul li a:active{
+    color: hsl(0, 0%, 55%);
+    }
+    
+    .wrapper_two{
+        padding: 2rem 2rem;
+      
+        margin-top: 4rem;
+        border: 0.02rem solid hsl(0, 0%, 100%);
+        width: 20%;
+      margin-left: 7rem;
+    
+    }
+    
+    .wrapper_two h1{
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-family: "Josefin Sans", serif;
+        
+    }
+    
+    .main{
+        padding: 4rem 2rem;
+      
+    }
+
+
+    
+.leader{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4,0.5fr);
+    padding: 6rem 6rem ;
+  
+    
+   
+
+    place-items: center;
+    
+   
+}
+.leader_img,.leader_text{
+    grid-row: 1/2;
+}
+.leader_img{
+    grid-column: 1/3;
+}
+
+
+.leader_img img{
+
+ min-width: 100%;
+}
+
+
+.leader_text{
+   
+    background-color:  hsl(0, 0%, 100%);
+    margin-left: 1rem;
+   width: 50%;
+  
+  padding: 1.8rem 2rem 0rem 4rem;
+
+   
+ 
+    
+    grid-column: 2/-1;
+    align-self: self-end;
+ 
+    text-align: start;
+   
+    
+}
+
+
+
+.leader_text h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.7rem; 
+    font-family: "Josefin Sans", serif;
+    color: hsl(0, 0%, 0%);
+
+}
+
+
+
+
+
+.leader_text p{
+    font-size: 0.9rem;
+    margin-bottom: -0.01rem;
+   
+}
+
+.con{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+  
+    margin-top: 2rem;
+   
+   
+    
+}
+
+.creation{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+    padding-left: 6rem;
+    
+  
+}
+
+.creation h2{
+    text-align: start;
+}
+.gallery{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding: 0rem 6rem;
+  
+}
+
+.gallery_item{
+
+ padding: 20rem 1rem;
+
+
+
+
+}
+
+
+
+
+
+.see{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+   justify-content: end;
+   padding-right: 6rem;
+   
+}
+
+.deep{
+ 
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+   
+     
+
+ 
+}
+.night{
+ 
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+    .soccer{
+        background:linear-gradient(
+            hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+          ),url(../images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.grid{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.above{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.pocket{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.curiosity{
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ),url(../images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.fisheye{
+  
+
+    
+    background:linear-gradient(
+        hsl(0, 0%, 0%, 0.01), hsl(0, 0%, 0%, 0.3)
+      ), url(../images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.gall_text{
+    
+    color: hsl(0, 0%, 100%);
+  
+    text-align: start;
+    transform: translate(2rem,17rem);
+    width: 95%;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.2rem; 
+    font-family: "Josefin Sans", serif; 
+   
+   
+  
+
+ 
+ }
+
+ .footer{
+    
+    background-color: hsl(0, 0%, 0%);
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2rem 6rem;
+   
+}
+.logo_foo{
+    background-size: 40%;
+    background-position: top left;
+
+  margin-left: 2rem;
+  padding: 1rem;
+
+}
+.wrapper_foo{
+    margin-right: auto;
+    
+}
+.wrapper_foo_two{
+   margin-left: auto;
+  
+
+}
+
+.wrapper_foo .nav_fo ul{
+   display: flex;
+   justify-content: start;
+
+   padding: 0rem 2rem;
+
+
+
+   
+  
+}
+
+
+.wrapper_foo .nav_fo ul li{
+    margin-left: 1.5rem;
+  
+}
+.wrapper_foo .nav_fo ul li:first-child{
+    margin-left: 0rem;
+}
+
+
+
+.wrapper_foo_two .nav_fo ul{
+    
+    margin-top: -1.8rem;
+    margin-left: 6.5rem;
+
+}
+
+.wrapper_foo_two p {
+   margin-top: 1rem;
+  
+}
+
+
+}
