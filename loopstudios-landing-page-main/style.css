@@ -1154,7 +1154,7 @@ margin-bottom: 1rem;
 
 .gall_text{
     color: hsl(0, 0%, 100%);
-    border: 1px solid red;
+   
     text-align: start;
     transform: translate(1rem,10rem);
     font-weight: 300;
