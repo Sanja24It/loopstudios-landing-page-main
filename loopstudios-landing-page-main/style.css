@@ -475,6 +475,30 @@ margin-bottom: 1rem;
   }
 .nav_fo ul li a:active{
 color: hsl(0, 0%, 55%);
+} 
+
+@media (orientation: landscape) {
+
+    .header{
+   
+
+        
+        height: 75vh;
+        background: linear-gradient(hsl(0, 0%, 0%, 0.7),hsl(0, 0%, 0%, 0.7)),url(../images/desktop/image-hero.jpg);
+       
+    
+        background-repeat: no-repeat ;
+        background-size: cover;
+        background-position: top center;
+        color: hsl(0, 0%, 100%);
+        
+           
+        
+        }
+        .wrapper_two{
+            margin-top: 3rem;
+        }
+        
 }
 
 @media screen and (min-width: 48rem) and (max-width:63.938rem){
