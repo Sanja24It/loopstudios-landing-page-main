@@ -491,6 +491,8 @@ color: hsl(0, 0%, 55%);
         background-size: cover;
         background-position: top center;
         color: hsl(0, 0%, 100%);
+         outline: 1px solid red;
+        
         
            
         
