@@ -483,7 +483,7 @@ color: hsl(0, 0%, 55%);
    
 
         
-        height: 75vh;
+     height: 70vh;
         background: linear-gradient(hsl(0, 0%, 0%, 0.7),hsl(0, 0%, 0%, 0.7)),url(../images/desktop/image-hero.jpg);
        
     
@@ -491,7 +491,7 @@ color: hsl(0, 0%, 55%);
         background-size: cover;
         background-position: top center;
         color: hsl(0, 0%, 100%);
-         outline: 1px solid red;
+       
         
         
            
